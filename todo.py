@@ -23,3 +23,29 @@ while True:
             print("YOUR TASKS:")
             for i in range(len(todo)):
                 print(i + 1, ".", todo[i])
+    elif Z == "3":
+        if len(todo) == 0:
+            print("NO TASKS TO REMOVE")
+        else:
+            print("YOUR TASKS:")
+            for i in range(len(todo)):
+                print(i + 1, ".", todo[i])
+
+            R = int(input("ENTER TASK NUMBER TO REMOVE:"))
+            if R > 0 and R <= len(todo):
+                removed = todo.pop(R - 1)
+                print("REMOVED TASK:", removed)
+            else:
+                print("INVALID TASK NUMBER")
+
+
+
+
+
+    
+    elif Z == "5":
+        print("EXITING TODO APP")
+        break
+
+    else:
+        print("INVALID OPTION, TRY AGAIN")
