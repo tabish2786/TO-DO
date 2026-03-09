@@ -40,7 +40,7 @@ while True:
                 print("INVALID TASK NUMBER")
 
     elif Z == "4":
-        print("EXITING TODO APP..!\nTHANKS FOR VISITING <3")
+        print("THANKS FOR VISITING <3\nEXITING TODO APP..!")
         break
 
     else:
