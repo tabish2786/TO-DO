@@ -35,7 +35,7 @@ while True:
             R = int(input("\nENTER TASK NUMBER TO REMOVE:"))
             if R > 0 and R <= len(todo):
                 removed = todo.pop(R - 1)
-                print("REMOVED TASK:", removed)
+                print("REMOVED TASK:",removed)
             else:
                 print("INVALID TASK NUMBER")
 
